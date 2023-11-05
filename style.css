@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    .smiley img{
+        width: 40px;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, rgb(150, 197, 150,.3), rgb(211, 52, 12, .3));
+}
+.container{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 4rem 8rem;
+    background: rgb(223, 236, 223);
+    border-radius: .2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.smiley-container{
+    display: flex;
+    margin-top: 4rem;
+   
+}
+.smiley{
+    padding: 10px;
+    border-radius: 4px;
+    width: 6rem;
+    height: 6rem;
+    margin: 1rem;
+}
+.btn{
+    background: rgba(12, 97, 153, 0.9);
+    margin-top: 4rem;
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    transition: 1s ease;
+
+}
+
+.smiley:hover, .active{
+    background-color: rgb(23, 23, 209);
+    transition: all 300ms ease;
+    cursor: pointer ;
+}
+
+.btn:active{
+    transform: scale(60%)
+
+}
+
